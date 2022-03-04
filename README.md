@@ -18,7 +18,7 @@ server: {
 
 </li>
 <li>The react app uses /api/v1 as base url and the server base endpoint url is /api/v1</li>
-<li>Using /api/v1 as base url is arbitrary. Notice however that it appears in 3 places : here in package.json, on the client side and on the server side</li>
+<li>Using /api/v1 as base url is arbitrary. Notice however that it appears in 3 places : root package.json, on the client side and on the server side</li>
 </ul>
 
 <h2>Installation</h2>
