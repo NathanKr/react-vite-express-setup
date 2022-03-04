@@ -1,5 +1,5 @@
 <h2>Motivation</h2>
-Setup react to work with a server (express in this repo) using proxy
+Setup react vite project to work with a server (express in this repo) using proxy
 
 <h2>Setup</h2>
 <ul>
