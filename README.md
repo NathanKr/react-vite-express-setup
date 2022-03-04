@@ -15,12 +15,23 @@ server: {
   },
 
 ```
+
 </li>
 <li>The react app uses /api/v1 as base url and the server base endpoint url is /api/v1</li>
+<li>Using /api/v1 as base url is arbitrary. Notice however that it appears in 3 places : here in package.json, on the client side and on the server side</li>
 </ul>
 
+<h2>Installation</h2>
+Perform the following from root directory , client directory and server directory
+```
+npm i
+
+```
+
+
+
 <h2>Run the project</h2>
-invoke from the roor project to run the server and the client
+Invoke from the root project to run the server and the client. This is done using concurrently
 
 ```
 npm start
