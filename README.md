@@ -1,10 +1,15 @@
 <h2>Motivation</h2>
 Setup react vite project to work with a server (express in this repo) using proxy
 
+<h2>Schema</h2>
+
+![Screenshot](./figs/schema.png)
+
+
 <h2>Setup</h2>
 <ul>
 <li>
-Add the following to vite.config.js
+Add the following to client/vite.config.js
 Here /api/v1 is mapped to http://localhost:5000/ which is where the server resides
 
 ```
@@ -18,7 +23,7 @@ server: {
 
 </li>
 <li>The react app uses /api/v1 as base url and the server base endpoint url is /api/v1</li>
-<li>Using /api/v1 as base url is arbitrary. Notice however that it appears in 3 places : root package.json, on the client side and on the server side</li>
+<li>Using /api/v1 as base url is arbitrary. Notice however that it appears in 3 places : client/vite.config.js , on the client side source files and on the server side source files</li>
 </ul>
 
 <h2>Installation</h2>
